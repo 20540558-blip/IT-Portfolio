@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Elie Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>Elie Portfolio</h1>
+
+<nav>
+  <a href="Dhomepage.html">Home</a>
+  <a href="about_me.html">About Me</a>
+  <a href="unit1.html">Unit 1</a>
+  <a href="unit2.html">Unit 2</a>
+  <a href="unit9.html">Unit 9</a>
+  <a href="unit11.html">Unit 11</a>
+  <a href="unit12.html">Unit 12</a>
+  <a href="unit13.html">Unit 13</a>
+  <a href="reflection.html">Reflection</a>
+</nav>
+
+<button onclick="toggleDarkMode()" class="btn">
+🌙
+</button>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<p class="small-title">
+BTEC IT PORTFOLIO
+</p>
+
+<h2>
+Smiles that <span>Inspire</span>
+</h2>
+
+<p>
+Welcome to my BTEC IT portfolio where I showcase
+my skills, development, coursework, and progress
+throughout the course.
+</p>
+
+<a href="unit1.html" class="btn">
+Explore My Work
+</a>
+
+</div>
+
+</section>
+
+<section class="content">
+
+<div class="section">
+
+<h3>Welcome</h3>
+
+<p>
+This portfolio showcases my progress throughout
+the BTEC IT course, including networking,
+website development, spreadsheets, systems,
+and programming skills.
+</p>
+
+</div>
+
+<div class="section">
+
+<h3>What I Have Learned</h3>
+
+<div class="distinction-list">
+
+<div class="distinction-item">
+<h4>Technology Systems</h4>
+<p>
+Understanding how computer hardware and software work together.
+</p>
+</div>
+
+<div class="distinction-item">
+<h4>Website Development</h4>
+<p>
+Creating websites using HTML and CSS.
+</p>
+</div>
+
+<div class="distinction-item">
+<h4>Programming</h4>
+<p>
+Learning coding logic and software development.
+</p>
+</div>
+
+<div class="distinction-item">
+<h4>Networking</h4>
+<p>
+Understanding communication and network systems.
+</p>
+</div>
+
+</div>
+</div>
+
+<div class="section">
+
+<h3>My Journey</h3>
+
+<p>
+Throughout the course I improved my confidence
+in coding, website development, problem solving,
+and understanding IT systems in real-world use.
+</p>
+
+</div>
+
+<div class="section">
+
+<h3>My Skills</h3>
+
+<div class="skills">
+
+<div class="skill">
+<p>Website Development</p>
+<div class="skill-bar">
+<div class="skill-fill" style="width:85%;"></div>
+</div>
+</div>
+
+<div class="skill">
+<p>Programming</p>
+<div class="skill-bar">
+<div class="skill-fill" style="width:75%;"></div>
+</div>
+</div>
+
+<div class="skill">
+<p>Networking</p>
+<div class="skill-bar">
+<div class="skill-fill" style="width:80%;"></div>
+</div>
+</div>
+
+<div class="skill">
+<p>Problem Solving</p>
+<div class="skill-bar">
+<div class="skill-fill" style="width:88%;"></div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>20540558@g.bdc.ac.uk</p>
+</footer>
+
+<script>
+function toggleDarkMode(){
+document.body.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html>
