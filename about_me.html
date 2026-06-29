@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me - Elie Portfolio</title>
+<link rel="stylesheet" href="style2.css">
+
+<style>
+/* Extra styling for upgrade */
+.hero span {
+  color: #00bcd4;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>Elie Portfolio</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="unit1.html">Unit 1</a>
+    <a href="unit2.html">Unit 2</a>
+    <a href="unit9.html">Unit 9</a>
+    <a href="unit11.html">Unit 11</a>
+    <a href="unit12.html">Unit 12</a>
+    <a href="unit13.html">Unit 13</a>
+    <a href="reflection.html">Reflection</a>
+  </nav>
+</header>
+
+<section class="hero fade-in">
+  <h2>About <span>Me</span></h2>
+  <p>My journey, skills and progress throughout BTEC IT</p>
+</section>
+
+<section class="container">
+
+  <div class="card fade-in">
+    <h3>Who I Am</h3>
+    <p>
+      I am a motivated BTEC IT student who has developed a strong understanding 
+      of different areas of technology. Throughout the course, I have completed 
+      a range of projects that demonstrate my ability to work independently and 
+      improve my technical skills over time.
+    </p>
+  </div>
+
+  <div class="card fade-in">
+    <h3>Technical Skills</h3>
+    <ul>
+      <li>Programming using Python (loops, lists, problem solving)</li>
+      <li>Website development using HTML & CSS</li>
+      <li>Spreadsheet development (formulas, formatting, data analysis)</li>
+      <li>Understanding computer systems and networking</li>
+    </ul>
+  </div>
+
+  <div class="card fade-in">
+    <h3>Personal Skills</h3>
+    <ul>
+      <li>Problem solving and logical thinking</li>
+      <li>Organisation and time management</li>
+      <li>Ability to work independently and improve from feedback</li>
+      <li>Communication through written explanations</li>
+    </ul>
+  </div>
+
+  <div class="card fade-in">
+    <h3>My Progress</h3>
+    <p>
+      At the start of the course, I found some areas challenging, especially 
+      programming and explaining technical concepts. However, over time I have 
+      improved my confidence and ability to complete tasks more efficiently. 
+      My work now shows clearer structure, better understanding, and more 
+      attention to detail.
+    </p>
+  </div>
+
+  <div class="card fade-in">
+    <h3>Work Evidence</h3>
+    <p>Examples of my coursework and practical work:</p>
+
+    <!-- Replace with YOUR screenshots -->
+    <img src="images/work1.png" alt="Spreadsheet Work">
+    <img src="images/work2.png" alt="Programming Work">
+    <img src="images/work3.png" alt="Website Work">
+    
+  </div>
+
+</section>
+
+<footer>
+  <p>20540558@g.bdc.ac.uk</p>
+</footer>
+
+</body>
+</html>
