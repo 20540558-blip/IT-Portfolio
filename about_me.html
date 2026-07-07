@@ -1,133 +1,331 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>About Me - Elie Portfolio</title>
-<link rel="stylesheet" href="style2.css">
 
-<style>
-/* Extra styling for upgrade */
-.hero span {
-  color: #00bcd4;
-}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-.card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-radius: 12px;
-}
+<title>About Me | Elie Portfolio</title>
 
-.card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-}
-
-img {
-  border-radius: 10px;
-  transition: transform 0.3s ease;
-}
-
-img:hover {
-  transform: scale(1.03);
-}
-
-.fade-in {
-  animation: fadeIn 1s ease-in;
-}
-
-@keyframes fadeIn {
-  from {opacity: 0; transform: translateY(20px);}
-  to {opacity: 1; transform: translateY(0);}
-}
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
 <header>
-  <h1>Elie Portfolio</h1>
- <nav>
-  <a href="index.html">Home</a>
-  <a href="about_me.html">About Me</a>
 
-  <a href="projects.html">Projects</a>
+<h1>Elie Portfolio</h1>
 
-  <a href="unit1.html">Unit 1</a>
-  <a href="unit2.html">Unit 2</a>
-  <a href="unit9.html">Unit 9</a>
-  <a href="unit11.html">Unit 11</a>
-  <a href="unit12.html">Unit 12</a>
-  <a href="unit13.html">Unit 13</a>
+<nav>
 
-  <a href="cv.html">CV</a>
+<a href="index.html">Home</a>
+<a href="about_me.html" class="active">About Me</a>
+<a href="projects.html">Projects</a>
 
-  <a href="reflection.html">Reflection</a>
+<a href="unit1.html">Unit 1</a>
+<a href="unit2.html">Unit 2</a>
+<a href="unit9.html">Unit 9</a>
+<a href="unit11.html">Unit 11</a>
+<a href="unit12.html">Unit 12</a>
+<a href="unit13.html">Unit 13</a>
+
+<a href="cv.html">CV</a>
+<a href="reflection.html">Reflection</a>
+<a href="contact.html">Contact</a>
+
 </nav>
+
+<button onclick="toggleDarkMode()" class="btn">
+🌙
+</button>
+
 </header>
 
-<section class="hero fade-in">
-  <h2>About <span>Me</span></h2>
-  <p>My journey, skills and progress throughout BTEC IT</p>
+<!-- HERO -->
+
+<section class="hero fade">
+
+<div class="hero-text">
+
+<p class="small-title">
+
+ABOUT ME
+
+</p>
+
+<h2>
+
+Getting to Know
+
+<span>Me</span>
+
+</h2>
+
+<p>
+
+I'm an aspiring Software & Data Apprentice currently studying
+BTEC Information Technology. I enjoy programming, solving
+technical problems and building projects that help me improve
+my knowledge and prepare for a career in the technology
+industry.
+
+</p>
+
+</div>
+
+<div class="hero-image">
+
+<img src="images/profile.png" alt="Profile Picture">
+
+</div>
+
 </section>
 
-<section class="container">
+<!-- CONTENT -->
 
-  <div class="card fade-in">
-    <h3>Who I Am</h3>
-    <p>
-      I am a motivated BTEC IT student who has developed a strong understanding 
-      of different areas of technology. Throughout the course, I have completed 
-      a range of projects that demonstrate my ability to work independently and 
-      improve my technical skills over time.
-    </p>
-  </div>
+<section class="content">
 
-  <div class="card fade-in">
-    <h3>Technical Skills</h3>
-    <ul>
-      <li>Programming using Python (loops, lists, problem solving)</li>
-      <li>Website development using HTML & CSS</li>
-      <li>Spreadsheet development (formulas, formatting, data analysis)</li>
-      <li>Understanding computer systems and networking</li>
-    </ul>
-  </div>
+<div class="section">
 
-  <div class="card fade-in">
-    <h3>Personal Skills</h3>
-    <ul>
-      <li>Problem solving and logical thinking</li>
-      <li>Organisation and time management</li>
-      <li>Ability to work independently and improve from feedback</li>
-      <li>Communication through written explanations</li>
-    </ul>
-  </div>
+<h3>Who I Am</h3>
 
-  <div class="card fade-in">
-    <h3>My Progress</h3>
-    <p>
-      At the start of the course, I found some areas challenging, especially 
-      programming and explaining technical concepts. However, over time I have 
-      improved my confidence and ability to complete tasks more efficiently. 
-      My work now shows clearer structure, better understanding, and more 
-      attention to detail.
-    </p>
-  </div>
+<p>
 
-  <div class="card fade-in">
-    <h3>Work Evidence</h3>
-    <p>Examples of my coursework and practical work:</p>
+My name is Elie Koloto and I am passionate about technology,
+software development and continuous learning.
 
-    <!-- Replace with YOUR screenshots -->
-    <img src="images/work1.png" alt="Spreadsheet Work">
-    <img src="images/work2.png" alt="Programming Work">
-    <img src="images/work3.png" alt="Website Work">
-    
-  </div>
+Through my college studies and personal projects I have gained
+experience in HTML, CSS, networking, cybersecurity and Python.
+I enjoy challenging myself by creating projects that improve
+my programming skills and problem-solving ability.
+
+My ambition is to secure a Software & Data Apprenticeship where
+I can continue learning from experienced professionals while
+making a positive contribution to real software projects.
+
+</p>
+
+</div>
+
+<div class="section">
+
+<h3>Education</h3>
+
+<div class="distinction-list">
+
+<div class="distinction-item">
+
+<h4>BTEC Information Technology</h4>
+
+<p>
+
+Currently studying website development,
+networking, cybersecurity,
+computer systems and data analysis.
+
+</p>
+
+</div>
+
+<div class="distinction-item">
+
+<h4>GCSE Mathematics</h4>
+
+<p>
+
+Grade 4
+
+</p>
+
+</div>
+
+<div class="distinction-item">
+
+<h4>GCSE English Language</h4>
+
+<p>
+
+Grade 3
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h3>Technical Skills</h3>
+
+<div class="skills">
+
+<div class="skill">
+
+<p>Python</p>
+
+<div class="skill-bar">
+
+<div class="skill-fill" style="width:70%"></div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>HTML & CSS</p>
+
+<div class="skill-bar">
+
+<div class="skill-fill" style="width:90%"></div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>Cyber Security</p>
+
+<div class="skill-bar">
+
+<div class="skill-fill" style="width:80%"></div>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>Networking</p>
+
+<div class="skill-bar">
+
+<div class="skill-fill" style="width:80%"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h3>What I'm Currently Learning</h3>
+
+<div class="distinction-list">
+
+<div class="distinction-item">
+
+<h4>Python Programming</h4>
+
+<p>
+
+Building projects using functions,
+loops, dictionaries, lists and file handling.
+
+</p>
+
+</div>
+
+<div class="distinction-item">
+
+<h4>Git & GitHub</h4>
+
+<p>
+
+Learning version control,
+repositories,
+commits and collaboration.
+
+</p>
+
+</div>
+
+<div class="distinction-item">
+
+<h4>Software Development</h4>
+
+<p>
+
+Developing practical applications
+and improving coding standards.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h3>Career Goals</h3>
+
+<p>
+
+My goal is to become a Software Developer by beginning
+my career through a Software & Data Apprenticeship.
+
+I want to continue improving my programming skills,
+gain commercial experience and contribute to meaningful
+software projects while learning from experienced developers.
+
+</p>
+
+</div>
+
+<div class="section">
+
+<h3>Outside of College</h3>
+
+<p>
+
+Outside of my studies I enjoy learning new programming
+concepts, improving my portfolio, developing Python
+projects and exploring new technologies.
+
+I believe continuous learning is one of the most
+important qualities for anyone pursuing a career
+in software development.
+
+</p>
+
+</div>
 
 </section>
 
 <footer>
-  <p>20540558@g.bdc.ac.uk</p>
+
+<h3>Elie Koloto</h3>
+
+<p>Aspiring Software & Data Apprentice</p>
+
+<p>Email: Eliekoloto7@icloud.com</p>
+
+<p>GitHub: github.com/20540558-blip</p>
+
+<p>© 2026 Elie Koloto</p>
+
 </footer>
 
+<script>
+
+function toggleDarkMode(){
+
+document.body.classList.toggle("dark-mode");
+
+}
+
+</script>
+
 </body>
+
 </html>
