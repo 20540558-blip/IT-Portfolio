@@ -2,15 +2,14 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Elie Portfolio</title>
+<title>Elie Koloto | Software Portfolio</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 
-<link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
@@ -20,150 +19,378 @@
 <h1>Elie Portfolio</h1>
 
 <nav>
-  <a href="index.html">Home</a>
-  <a href="about_me.html">About Me</a>
 
-  <a href="projects.html">Projects</a>
+<a href="index.html" class="active">Home</a>
+<a href="about_me.html">About Me</a>
+<a href="projects.html">Projects</a>
 
-  <a href="unit1.html">Unit 1</a>
-  <a href="unit2.html">Unit 2</a>
-  <a href="unit9.html">Unit 9</a>
-  <a href="unit11.html">Unit 11</a>
-  <a href="unit12.html">Unit 12</a>
-  <a href="unit13.html">Unit 13</a>
+<a href="unit1.html">Unit 1</a>
+<a href="unit2.html">Unit 2</a>
+<a href="unit9.html">Unit 9</a>
+<a href="unit11.html">Unit 11</a>
+<a href="unit12.html">Unit 12</a>
+<a href="unit13.html">Unit 13</a>
 
-  <a href="cv.html">CV</a>
+<a href="cv.html">CV</a>
 
-  <a href="reflection.html">Reflection</a>
+<a href="reflection.html">Reflection</a>
+
+<a href="contact.html">Contact</a>
+
 </nav>
+
 <button onclick="toggleDarkMode()" class="btn">
 🌙
 </button>
 
 </header>
 
-<section class="hero">
+<!-- HERO -->
+
+<section class="hero fade">
 
 <div class="hero-text">
 
 <p class="small-title">
-BTEC IT PORTFOLIO
+
+WELCOME TO MY PORTFOLIO
+
 </p>
 
 <h2>
-Smiles that <span>Inspire</span>
+
+Hi, I'm
+
+<span>Elie Koloto</span>
+
 </h2>
 
 <p>
-Welcome to my BTEC IT portfolio where I showcase
-my skills, development, coursework, and progress
-throughout the course.
+
+I'm an aspiring Software & Data Apprentice currently studying
+BTEC Information Technology. I enjoy building websites,
+learning Python, strengthening my cybersecurity knowledge,
+and creating practical software solutions.
+
 </p>
 
-<a href="unit1.html" class="btn">
-Explore My Work
+<a href="projects.html" class="btn">
+
+View My Projects
+
 </a>
+
+<a href="cv.html" class="btn">
+
+Download CV
+
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="images/profile.png" alt="Portfolio Image">
 
 </div>
 
 </section>
 
+<!-- ABOUT -->
+
 <section class="content">
 
 <div class="section">
 
-<h3>Welcome</h3>
+<h3>About Me</h3>
 
 <p>
-This portfolio showcases my progress throughout
-the BTEC IT course, including networking,
-website development, spreadsheets, systems,
-and programming skills.
+
+I am a motivated and reliable student with a strong interest
+in software development and technology. I enjoy solving
+problems, learning new programming skills and creating
+projects that improve my understanding of IT.
+
+My goal is to begin my career through a Software & Data
+Apprenticeship where I can continue developing my technical
+skills while gaining valuable industry experience.
+
 </p>
 
 </div>
 
+<!-- SKILLS -->
+
 <div class="section">
 
-<h3>What I Have Learned</h3>
+<h3>Technical Skills</h3>
 
 <div class="distinction-list">
 
 <div class="distinction-item">
-<h4>Technology Systems</h4>
-<p>
-Understanding how computer hardware and software work together.
-</p>
-</div>
 
-<div class="distinction-item">
-<h4>Website Development</h4>
-<p>
-Creating websites using HTML and CSS.
-</p>
-</div>
-
-<div class="distinction-item">
 <h4>Programming</h4>
+
 <p>
-Learning coding logic and software development.
+
+Python
+
+<br>
+
+HTML
+
+<br>
+
+CSS
+
 </p>
+
 </div>
 
 <div class="distinction-item">
+
+<h4>Cyber Security</h4>
+
+<p>
+
+Windows Defender
+
+<br>
+
+BitLocker
+
+<br>
+
+Firewall Configuration
+
+</p>
+
+</div>
+
+<div class="distinction-item">
+
 <h4>Networking</h4>
-<p>
-Understanding communication and network systems.
-</p>
-</div>
-
-</div>
-</div>
-
-<div class="section">
-
-<h3>My Journey</h3>
 
 <p>
-Throughout the course I improved my confidence
-in coding, website development, problem solving,
-and understanding IT systems in real-world use.
+
+Network Devices
+
+<br>
+
+Internet Technologies
+
+<br>
+
+Communication Protocols
+
 </p>
 
 </div>
 
+<div class="distinction-item">
+
+<h4>Professional Skills</h4>
+
+<p>
+
+Communication
+
+<br>
+
+Problem Solving
+
+<br>
+
+Organisation
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- FEATURED PROJECTS -->
+
 <div class="section">
 
-<h3>My Skills</h3>
+<h3>Featured Projects</h3>
+
+<div class="projects">
+
+<div class="project-card">
+
+<img src="images/portfolio.png">
+
+<div class="project-content">
+
+<h3>Portfolio Website</h3>
+
+<p>
+
+Designed and developed this portfolio using HTML and CSS.
+
+</p>
+
+<div class="tags">
+
+<span class="tag">HTML</span>
+
+<span class="tag">CSS</span>
+
+</div>
+
+<a href="projects.html" class="btn">
+
+View
+
+</a>
+
+</div>
+
+</div>
+
+<div class="project-card">
+
+<img src="images/security.png">
+
+<div class="project-content">
+
+<h3>Cyber Security Project</h3>
+
+<p>
+
+Implemented firewall rules, BitLocker encryption,
+multi-factor authentication and Windows security.
+
+</p>
+
+<div class="tags">
+
+<span class="tag">Security</span>
+
+<span class="tag">Windows</span>
+
+</div>
+
+<a href="unit12.html" class="btn">
+
+View
+
+</a>
+
+</div>
+
+</div>
+
+<div class="project-card">
+
+<img src="images/python.png">
+
+<div class="project-content">
+
+<h3>Student Grade Manager</h3>
+
+<p>
+
+A Python application that stores student records,
+calculates grades and manages data efficiently.
+
+</p>
+
+<div class="tags">
+
+<span class="tag">Python</span>
+
+<span class="tag">JSON</span>
+
+</div>
+
+<a href="projects.html" class="btn">
+
+Coming Soon
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- CURRENT LEARNING -->
+
+<div class="section">
+
+<h3>Current Learning</h3>
 
 <div class="skills">
 
 <div class="skill">
-<p>Website Development</p>
+
+<p>Python - 70%</p>
+
 <div class="skill-bar">
-<div class="skill-fill" style="width:85%;"></div>
+
+<div class="skill-fill"
+
+style="width:70%;">
+
 </div>
+
+</div>
+
 </div>
 
 <div class="skill">
-<p>Programming</p>
+
+<p>HTML & CSS - 90%</p>
+
 <div class="skill-bar">
-<div class="skill-fill" style="width:75%;"></div>
+
+<div class="skill-fill"
+
+style="width:90%;">
+
 </div>
+
+</div>
+
 </div>
 
 <div class="skill">
-<p>Networking</p>
+
+<p>Git & GitHub - 75%</p>
+
 <div class="skill-bar">
-<div class="skill-fill" style="width:80%;"></div>
+
+<div class="skill-fill"
+
+style="width:75%;">
+
 </div>
+
+</div>
+
 </div>
 
 <div class="skill">
-<p>Problem Solving</p>
+
+<p>Cyber Security - 80%</p>
+
 <div class="skill-bar">
-<div class="skill-fill" style="width:88%;"></div>
+
+<div class="skill-fill"
+
+style="width:80%;">
+
 </div>
+
+</div>
+
 </div>
 
 </div>
@@ -173,14 +400,46 @@ and understanding IT systems in real-world use.
 </section>
 
 <footer>
-<p>20540558@g.bdc.ac.uk</p>
+
+<h3>Elie Koloto</h3>
+
+<p>
+
+Aspiring Software & Data Apprentice
+
+</p>
+
+<p>
+
+📧 Eliekoloto7@icloud.com
+
+</p>
+
+<p>
+
+GitHub:
+https://github.com/20540558-blip
+
+</p>
+
+<p>
+
+© 2026 Elie Koloto
+
+</p>
+
 </footer>
 
 <script>
+
 function toggleDarkMode(){
+
 document.body.classList.toggle("dark-mode");
+
 }
+
 </script>
 
 </body>
+
 </html>
